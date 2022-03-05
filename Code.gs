@@ -6,7 +6,7 @@ function onOpen() {
 }
 
 function showSidebar() {
-  var html = HtmlService.createHtmlOutputFromFile('Page')
+  var html = HtmlService.createHtmlOutputFromFile('Add-On')
       .setTitle('My custom sidebar');
   SpreadsheetApp.getUi() // Or DocumentApp or SlidesApp or FormApp.
       .showSidebar(html);
