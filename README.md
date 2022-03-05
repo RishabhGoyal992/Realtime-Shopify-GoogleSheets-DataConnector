@@ -1,14 +1,14 @@
 # Realtime-Shopify-GoogleSheets-DataConnector
 A microservice which acts as a Real-Time Data-Connector between Shopify Orders Data & Google Sheet.
 
-##Setting up:
+## Setting up:
 1. Clone the repository
 2. Run `npm install`
 3. Go to the documentation and follow the steps to turn on the Google Sheets API. Save the resulting `credentials.json` file in your project root.
 4. Run  `node index.js` to get the microservice server started.
 5. Tunnel it using ngrok application-> `ngrok http 8000`
 
-##Setting up Google Sheets:
+## Setting up Google Sheets:
 1. Open the spreadsheet in which you desire to reflect Real-Time Data. 
 2. Go to Extentions->App Script
 3. Make 3 files in the app script-> Code.gs, Add-On.html, URL_Board_Display.html
@@ -23,10 +23,10 @@ A microservice which acts as a Real-Time Data-Connector between Shopify Orders D
   4. Go back to google-sheets, enter your shop-name and paste the previously copied Token fully in the Token section. ![image](https://user-images.githubusercontent.com/35079024/156898140-475bcf09-ec9f-4add-b33c-4fa6af0b4e7c.png)
   5. Click on submit.
 
-##Setting up Shopify:
+## Setting up Shopify:
 1. You will be greeted with a URL. ![image](https://user-images.githubusercontent.com/35079024/156898153-77f0d3f7-251a-48f4-878f-331b09463bfa.png)
 2. Copy it and paste it in the Webhook section of Shopify. With followin configurations-> Event- Order Creation, Format-> JSON, Webhook API Version-> 2022-01 (Latest) ![image](https://user-images.githubusercontent.com/35079024/156898193-fa7f984c-0cc6-4ccc-afd7-e4e9bca2e695.png)
 3. Click on Save, and you are GOOG TO GO!
 
-Fire up some test-orders and you will see all your orders getting updated instantly on the Google Sheets, Realtime, Dynamically wihtout Refreshing the Browser.
+### Fire up some test-orders and you will see all your orders getting updated instantly on the Google Sheets, Realtime, Dynamically wihtout Refreshing the Browser.
 ![image](https://user-images.githubusercontent.com/35079024/156898281-2d1f923f-fb8f-4b7f-b185-25a0aff4e22c.png)
