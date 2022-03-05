@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <center> <h1> Shopify-Google-Sheets-Data-Connector </h1> </center>  
+    <center> <h2><a target="_blank" rel="noopener noreferrer" href="https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&response_type=code&client_id=255109727681-fi5f694m9dpd60mlogho52oo27375ce0.apps.googleusercontent.com&redirect_uri=https%3A%2F%2F04e1-2405-201-1006-a292-c982-8888-343c-66c2.ngrok.io">Click here to Authorize your Google Account</a></h2> </center> 
+    <!-- Please fill in the form below.<br><br> -->
+    <form id="myForm" onsubmit="event.preventDefault(); google.script.run.processForm(this)">
+      Shop Name:
+      <input type="text" name="shopname"><br><br>
+      Token:
+      <input type="text" name="tokenname"><br><br>
+      <input type="submit" value="Submit">
+    </form><br>
+  </body>
+</html>
