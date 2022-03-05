@@ -5,8 +5,9 @@ A microservice which acts as a Real-Time Data-Connector between Shopify Orders D
 1. Clone the repository
 2. Run `npm install`
 3. Go to the documentation and follow the steps to turn on the Google Sheets API. Save the resulting `credentials.json` file in your project root.
-4. Run  `node index.js` to get the microservice server started.
-5. Tunnel it using ngrok application-> `ngrok http 8000`
+4. Tunnel it using ngrok application-> `ngrok http 8000`
+5. Embed the ngrok URL in the `index.js` file.
+6. Run  `node index.js` to get the microservice server started.
 
 ## Setting up Google Sheets:
 1. Open the spreadsheet in which you desire to reflect Real-Time Data. 
