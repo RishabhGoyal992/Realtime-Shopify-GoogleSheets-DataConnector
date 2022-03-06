@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/35079024/156915810-d69cb5d9-f7db-45b4-
 ## Setting up:
 1. Clone the repository
 2. Run `npm install`
-3. Go to the documentation [a link](https://developers.google.com/apps-script/api/quickstart/nodejs) and follow the steps to turn on the Google Sheets API. Save the resulting `credentials.json` file in your project root.
+3. Go to the [documentation](https://developers.google.com/apps-script/api/quickstart/nodejs) and follow the steps to turn on the Google Sheets API. Save the resulting `credentials.json` file in your project root. (Note- In the credentials.json, please change the "web" key to "installed" key)
 4. Tunnel it using ngrok application-> `ngrok http 8000`
 5. Embed the ngrok URL in the `index.js` file.
 6. Run  `node index.js` to get the microservice server started.
