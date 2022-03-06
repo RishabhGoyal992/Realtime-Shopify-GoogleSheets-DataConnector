@@ -24,12 +24,14 @@ https://user-images.githubusercontent.com/35079024/156915810-d69cb5d9-f7db-45b4-
 5. Run the Script.
 6. Click on Custom Menu->Show-Sidebar![image](https://user-images.githubusercontent.com/35079024/156897797-0157941d-611c-44da-9844-e6084cf9de5e.png)
 7. An add-on will appear on the right hand side-> ![image](https://user-images.githubusercontent.com/35079024/156897868-92ad0b49-63f3-46c6-a26c-8b9881d79112.png)
-8. Follow the steps in chronological-order to achive authorization + shopify user credentials registration
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> First Click on "Click here to Authorize your Google Account" 
+
+## Google Authorization:
+### Follow the steps in chronological-order to achive authorization + shopify user credentials registration
+1. First Click on "Click here to Authorize your Google Account" 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Select your email id to authorize with this service. ![image](https://user-images.githubusercontent.com/35079024/156916371-87de38d1-b2ec-4f7a-990b-b9cc1cb33f90.png)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> You will be given an access_token. Select ALL and copy it. ![image](https://user-images.githubusercontent.com/35079024/156898115-3b21be18-38ad-409c-afcd-218b2269ecc1.png)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> Go back to google-sheets, enter your shop-name and paste the previously copied Token fully in the Token section. ![image](https://user-images.githubusercontent.com/35079024/156898140-475bcf09-ec9f-4add-b33c-4fa6af0b4e7c.png)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Click on submit.
+2. You will be given an access_token. Select ALL and copy it. ![image](https://user-images.githubusercontent.com/35079024/156898115-3b21be18-38ad-409c-afcd-218b2269ecc1.png)
+3. Go back to google-sheets, enter your shop-name and paste the previously copied Token fully in the Token section. ![image](https://user-images.githubusercontent.com/35079024/156898140-475bcf09-ec9f-4add-b33c-4fa6af0b4e7c.png)
+4. -> Click on submit.
 
 ## Setting up Shopify:
 1. You will be greeted with a URL. ![image](https://user-images.githubusercontent.com/35079024/156898153-77f0d3f7-251a-48f4-878f-331b09463bfa.png)
