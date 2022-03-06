@@ -13,9 +13,9 @@ const host = 'localhost';
 const port = 8000;
 const RANGE = 'Sheet1';
 
-const base_url = "https://04e1-2405-201-1006-a292-c982-8888-343c-66c2.ngrok.io";
+const base_url = "https://e494-2405-201-1006-a292-40c2-d278-7de9-8f6b.ngrok.io";
 
-const google_auth_url = "https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fspreadsheets.google.com%2Ffeeds%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&response_type=code&client_id=255109727681-fi5f694m9dpd60mlogho52oo27375ce0.apps.googleusercontent.com&redirect_uri=https%3A%2F%2F04e1-2405-201-1006-a292-c982-8888-343c-66c2.ngrok.io";
+const google_auth_url = "https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fspreadsheets&response_type=code&client_id=183283845671-bv8g9d6ejlt6f5d8fb073u48589edag0.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fe494-2405-201-1006-a292-40c2-d278-7de9-8f6b.ngrok.io";
 
 let uuid;
 
