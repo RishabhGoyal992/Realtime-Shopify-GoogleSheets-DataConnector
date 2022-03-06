@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/35079024/156915810-d69cb5d9-f7db-45b4-
 7. An add-on will appear on the right hand side-> ![image](https://user-images.githubusercontent.com/35079024/156897868-92ad0b49-63f3-46c6-a26c-8b9881d79112.png)
 8. Follow the steps in chronological-order to achive authorization + shopify user credentials registration
   1. First Click on "Click here to Authorize your Google Account" 
-  2. Select your email id to authorize with this service. ![image](https://user-images.githubusercontent.com/35079024/156897919-f0eb23d0-e2de-4f67-a0de-3fee43330d08.png)
+  2. Select your email id to authorize with this service. 
   3. You will be given an access_token. Select ALL and copy it. ![image](https://user-images.githubusercontent.com/35079024/156898115-3b21be18-38ad-409c-afcd-218b2269ecc1.png)
   4. Go back to google-sheets, enter your shop-name and paste the previously copied Token fully in the Token section. ![image](https://user-images.githubusercontent.com/35079024/156898140-475bcf09-ec9f-4add-b33c-4fa6af0b4e7c.png)
   5. Click on submit.
