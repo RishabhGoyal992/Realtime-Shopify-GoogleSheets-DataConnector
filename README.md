@@ -1,6 +1,13 @@
 # Realtime-Shopify-GoogleSheets-DataConnector
 A microservice which acts as a Real-Time Data-Connector between Shopify Orders Data & Google Sheet.
 
+## Working Demo
+
+
+https://user-images.githubusercontent.com/35079024/156915810-d69cb5d9-f7db-45b4-98eb-26fdc3d29192.mp4
+
+
+
 ## Setting up:
 1. Clone the repository
 2. Run `npm install`
