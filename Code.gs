@@ -22,7 +22,7 @@ function processForm(formObject) {
 
   var string_token = token;
  
-  var url = "https://04e1-2405-201-1006-a292-c982-8888-343c-66c2.ngrok.io/POST_Generate_URL";
+  var url = "https://e494-2405-201-1006-a292-40c2-d278-7de9-8f6b.ngrok.io/POST_Generate_URL";
 
   var ssid = SpreadsheetApp.getActiveSpreadsheet().getId();
 let json_to_be_sent = {
